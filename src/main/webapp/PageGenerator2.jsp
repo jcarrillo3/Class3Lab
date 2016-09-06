@@ -11,9 +11,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Table</title>
     </head>
-    <body>
+    <body style="text-align: center; width: 500px; margin-left: 600px">
         <h1>Page Generator 2 - Table</h1>
-        <table>
+        <table style="margin-left: 200px">
             <%
                 for (int c = 0; c < 3; c++){
                     out.println("<tr>");
