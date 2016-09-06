@@ -50,6 +50,7 @@ public class PageGenerator extends HttpServlet {
                 out.println("</tr>");
             }
             out.println("</table>");
+            out.println("<p><a href=\"index.html\">Home</a></p>");
             out.println("</body>");
             out.println("</html>");
         }
