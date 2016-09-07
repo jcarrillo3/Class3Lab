@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Welcome Result</title>
     </head>
-    <body style="text-align: center">
+    <body style="text-align: center; margin-top: 200px">
         <h1>Welcome Message</h1>
         <%
           Object obj = request.getAttribute("msg");

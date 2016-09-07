@@ -39,7 +39,7 @@ public class PageGenerator extends HttpServlet {
             out.println("<head>");
             out.println("<title>Servlet PageGenerator</title>");            
             out.println("</head>");
-            out.println("<body style='text-align: center; width: 500px; margin-left: 600px'>");
+            out.println("<body style='text-align: center; width: 500px; margin-left: 600px; margin-top: 200px'>");
             out.println("<h1>Page Generator - Table</h1>");
             out.println("<table style='margin-left: 200px'>");
             for (int col = 0; col < 3; col++){

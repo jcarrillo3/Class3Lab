@@ -11,14 +11,14 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Table</title>
     </head>
-    <body style="text-align: center; width: 500px; margin-left: 600px">
+    <body style="text-align: center; width: 500px; margin-left: 600px; margin-top: 200px">
         <h1>Page Generator 2 - Table</h1>
         <table style="margin-left: 200px">
             <%
                 for (int c = 0; c < 3; c++){
                     out.println("<tr>");
                     for (int r = 0; r < 3; r++){
-                        out.println("<td style='border: 1px solid black; padding: 10px'>" + (r+1) + "</td>");
+                        out.println("<td style='border: 1px solid black; padding: 10px'>" + (c+r) + "</td>");
                     }
                     out.println("</tr>");
                 }
